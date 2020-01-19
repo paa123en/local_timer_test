@@ -7,7 +7,7 @@ const htmlWebpackPlugin = new HtmlWebPackPlugin({
 });
 module.exports = {
   mode: "production",
-  entry: "./src/client/main.jsx",
+  entry: "./src/client/js/main.jsx",
   output: {
     path: path.resolve('dest'),
     filename: '[name].js'
