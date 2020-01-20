@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {TimerInput} from './taskInput';
 import {Timeline} from './timeLine';
+import './../css/style';
 
 export function App() {
   const [tasks, setTask] = React.useState([]);
